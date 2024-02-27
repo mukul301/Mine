@@ -1,0 +1,87 @@
+<head>
+    
+    <title>A critical question</title>
+    
+    <style>
+        /* Your CSS styles here */
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    text-align: center;
+
+}
+.message{
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 36px;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    color: #666;
+}
+
+
+
+        #yesOMG{
+            padding: 20px 20px;
+            font-size: 15px;
+        }
+        #noButton {
+            padding: 20px 20px;
+            font-size: 15px;
+        }
+        .message {
+            display: none;
+            color: rgb(88, 100, 163);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Will you go out with me?</h1>
+        <img src = 'YAg6.gif' alt = "I am waiting">
+    </header>
+    <p id="message1" class = "message"> Why are you so cold?</p>
+    <p id="message2" class="message">Please consider my heart!</p>
+    <p id="message3" class="message">You know how much I love you, mm?!</p>
+    <p id="message4" class="message">Please, don't break my heart</p>
+    <div class = 'container'>
+    <button id ="yesOMG" onclick="yesClick()">Yes</button>
+    <button id="noButton" onclick="growButton()">No</button>
+    </div>
+    <footer>
+        <p> Your love.</p>
+    </footer>
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
